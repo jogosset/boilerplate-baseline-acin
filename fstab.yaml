@@ -1,0 +1,4 @@
+mountpoints:
+  /:
+    url: https://content.da.live/jogosset/boilerplate-baseline-acin/
+    type: markup
