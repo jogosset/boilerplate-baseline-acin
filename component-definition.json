@@ -549,6 +549,69 @@
               "type": "key-value-block"
             }
           }
+        },
+        {
+          "title": "Circle Carousel",
+          "id": "circle-carousel",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"circle-carousel\"><div><div>Category 1</div><div>/category-1</div></div><div><div>Category 2</div><div>/category-2</div></div><div><div>Category 3</div><div>/category-3</div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Hero CTA",
+          "id": "hero-cta",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"hero-cta\"><div><div><h1>Shop the Latest Collection</h1><p>Discover new arrivals and trending styles.</p><p><a href=\"/shop\">Shop Now</a></p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Newsletter",
+          "id": "newsletter",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"newsletter\"><div><div><h2>Stay in the Loop</h2><p>Subscribe to our newsletter for exclusive offers.</p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Promotional Hero",
+          "id": "promotional-hero",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"promotional-hero\"><div><div><h2>Summer Sale</h2><p>Up to 50% off select items.</p><p><a href=\"/sale\">Shop Sale</a></p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Search Bar",
+          "id": "search-bar",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"search-bar\"><div><div>Search our store</div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Store Locator",
+          "id": "store-locator",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"store-locator\"><div><div><h2>Find a Store</h2><p>Locate a store near you.</p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Top Banner",
+          "id": "top-banner",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"top-banner\"><div><div>Free shipping on orders over $50</div></div></div>"
+            }
+          }
         }
       ]
     },
