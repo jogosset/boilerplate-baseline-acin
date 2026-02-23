@@ -29,7 +29,7 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
-.cards .cards-card-body {
-  margin: var(--spacing-small);
-  background-color: #F5F5F5;
+.cards > ul > li {
+  border: var(--shape-border-width-1) solid var(--color-neutral-500);
+  background-color: #3E7023;
 }
