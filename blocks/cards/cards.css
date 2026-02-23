@@ -29,3 +29,7 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+.cards .cards-card-body {
+  margin: var(--spacing-small);
+  background-color: #F5F5F5;
+}
