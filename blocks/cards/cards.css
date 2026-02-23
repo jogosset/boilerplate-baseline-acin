@@ -36,6 +36,6 @@
 }
 /*  Make card Title Bold and larger */
 .cards .cards-card-body > :first-child { 
-  font-size: 2.25rem; 
+  font-size: 2.0rem; 
   font-weight: bold;
 }
