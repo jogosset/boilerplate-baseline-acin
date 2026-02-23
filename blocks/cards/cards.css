@@ -29,7 +29,12 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+/* change card background Color */
 .cards > ul > li {
   border: var(--shape-border-width-1) solid var(--color-neutral-500);
   background-color: #3E7023;
+}
+/*  Make card Title Bold */
+.cards .card-title {
+  font-weight: bold;
 }
