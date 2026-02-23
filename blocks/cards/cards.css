@@ -35,7 +35,7 @@
   background-color: #C2EDC2;
 }
 /*  Make card Title Bold and larger */
-.cards .card-title {
+.cards .cards-title {
   font-weight: bold;
   font-size: 1.25rem;
 }
