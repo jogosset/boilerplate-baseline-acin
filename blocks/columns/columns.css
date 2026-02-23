@@ -31,8 +31,9 @@
     order: unset;
   }
   .columns {
-  background: #37A643;
+  background: #545252;
   padding: 24px;
   border-radius: 12px;
+    font-color: #ffffff
 }
 }
