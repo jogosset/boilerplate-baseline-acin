@@ -36,7 +36,7 @@
   border-radius: 12px;
   }
   .columns > div > :not(.columns-img-col) {
-  color: #590E0E;
+  color: #000000;
   }
   .columns > div > :not(.columns-img-col) a {
   display: inline-block;
