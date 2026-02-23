@@ -13,15 +13,17 @@ This block does not require any configuration parameters. Content is defined dir
 ### Block Structure
 
 Each row in the block becomes a card with the following structure:
-- First column: Image (optional) - Automatically styled as `cards-card-image`
-- Subsequent columns: Body content - Automatically styled as `cards-card-body`
+- First column: Image (optional)
+- Second column: Background color (optional, any valid CSS color value)
+- Third column: Title
+- Fourth column: Body content
 
 Example authoring structure:
 ```
-| Image | Content |
-|-------|---------|
-| ![Product 1](image1.jpg) | <h3>Product Name</h3><p>Description</p> |
-| ![Product 2](image2.jpg) | <h3>Product Name</h3><p>Description</p> |
+| Image | Background Color | Title | Body |
+|-------|------------------|-------|------|
+| ![Product 1](image1.jpg) | #f6f2ff | Product Name | <p>Description</p> |
+| ![Product 2](image2.jpg) | lightyellow | Product Name | <p>Description</p> |
 ```
 
 <!-- ### URL Parameters

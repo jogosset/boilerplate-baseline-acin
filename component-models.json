@@ -202,10 +202,23 @@
         "multi": false
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "backgroundColor",
+        "label": "Background Color",
+        "description": "Any valid CSS color (for example: #f6f2ff, rgb(245,245,245), lightyellow)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title"
+      },
+      {
         "component": "richtext",
-        "name": "text",
+        "name": "body",
         "value": "",
-        "label": "Text",
+        "label": "Body",
         "valueType": "string"
       }
     ]
