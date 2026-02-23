@@ -34,10 +34,9 @@
   border: var(--shape-border-width-1) solid var(--color-neutral-500);
   background-color: #C2EDC2;
 }
-/*  Make card Title Bold */
+/*  Make card Title Bold and larger */
 .cards .card-title {
   font-weight: bold;
-}
-.cards .cards-card-body > :first-child {
   font-size: 1.25rem;
 }
+
