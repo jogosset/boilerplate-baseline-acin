@@ -38,3 +38,6 @@
 .cards .card-title {
   font-weight: bold;
 }
+.cards .cards-card-body > :first-child {
+  font-size: 1.25rem;
+}
