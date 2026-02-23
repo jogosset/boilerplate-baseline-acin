@@ -30,7 +30,7 @@
     flex: 1;
     order: unset;
   }
-  .columns > div > :not(.columns-img-col) {
+  .columns {
   background: #5B7CDE;
   padding: 16px;
   border-radius: 10px;
