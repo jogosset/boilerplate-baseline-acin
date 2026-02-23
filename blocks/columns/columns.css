@@ -34,6 +34,8 @@
   background: #545252;
   padding: 24px;
   border-radius: 12px;
-  color: #ffffff
+  }
+  .columns > div > :not(.columns-img-col) {
+  color: #ffffff;
 }
 }
