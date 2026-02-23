@@ -37,5 +37,15 @@
   }
   .columns > div > :not(.columns-img-col) {
   color: #ffffff;
+  }
+  .columns > div > :not(.columns-img-col) a {
+  display: inline-block;
+  background: #0a4cff;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1;
 }
 }
