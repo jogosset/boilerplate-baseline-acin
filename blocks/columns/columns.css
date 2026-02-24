@@ -43,7 +43,7 @@
   /* This is the CTA button in the column */
   .columns > div > :not(.columns-img-col) a {
   display: inline-block;
-  background: #3C32E6;
+  background: #32B3E6;
   color: #fff;
   padding: 12px 20px;
   border-radius: 8px;
