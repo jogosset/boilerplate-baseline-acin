@@ -67,7 +67,7 @@
           "plugins": {
             "da": {
               "name": "accordion-item",
-              "rows": 2,
+              "rows": 4,
               "columns": 0,
               "fields": [
                 {
@@ -77,6 +77,14 @@
                 {
                   "name": "text",
                   "selector": "div:nth-child(2)"
+                },
+                {
+                  "name": "summaryBackgroundColor",
+                  "selector": "div:nth-child(3)"
+                },
+                {
+                  "name": "summaryTextColor",
+                  "selector": "div:nth-child(4)"
                 }
               ]
             }

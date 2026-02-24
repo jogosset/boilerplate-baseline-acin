@@ -20,11 +20,13 @@
       "plugins": {
         "da": {
           "name": "accordion-item",
-          "rows": 2,
+          "rows": 4,
           "columns": 0,
           "fields": [
             { "name": "summary", "selector": "div:nth-child(1)" },
-            { "name": "text", "selector": "div:nth-child(2)" }
+            { "name": "text", "selector": "div:nth-child(2)" },
+            { "name": "summaryBackgroundColor", "selector": "div:nth-child(3)" },
+            { "name": "summaryTextColor", "selector": "div:nth-child(4)" }
           ]
         }
       }
@@ -49,6 +51,20 @@
           "label": "Text",
           "valueType": "string",
           "required": true
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "summaryBackgroundColor",
+          "label": "Summary Background Color",
+          "description": "Any valid CSS color (for example: #f5f5f5, rgb(245,245,245), lightyellow)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "summaryTextColor",
+          "label": "Summary Text Color",
+          "description": "Any valid CSS color (for example: #222, rgb(34,34,34), darkblue)"
         }
       ]
     }

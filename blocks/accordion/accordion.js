@@ -11,6 +11,12 @@ export default function decorate(block) {
     const summary = document.createElement('summary');
     summary.className = 'accordion-item-label';
     summary.append(...label.childNodes);
+
+    const summaryBackgroundColor = row.children[2]?.textContent?.trim();
+    const summaryTextColor = row.children[3]?.textContent?.trim();
+    if (summaryBackgroundColor) summary.style.backgroundColor = summaryBackgroundColor;
+    if (summaryTextColor) summary.style.color = summaryTextColor;
+
     // decorate accordion item body
     const body = row.children[1];
     body.className = 'accordion-item-body';
