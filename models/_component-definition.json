@@ -32,7 +32,7 @@
           "...": "../blocks/cards/_*.json#/definitions"
         },
         {
-          "...": "../blocks/cards_v2/_*.json#/definitions"
+          "...": "../blocks/cards-v2/_*.json#/definitions"
         },
         {
           "...": "../blocks/carousel/_*.json#/definitions"

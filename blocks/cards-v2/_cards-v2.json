@@ -1,10 +1,10 @@
 {
   "definitions": [
     {
-      "title": "Cards V2",
-      "id": "cards_v2",
-      "model": "cards_v2",
-      "filter": "cards_v2",
+      "title": "cards_v2",
+      "id": "cards-v2",
+      "model": "cards-v2",
+      "filter": "cards-v2",
       "plugins": {
         "da": {
           "rows": 1,
@@ -13,9 +13,9 @@
       }
     },
     {
-      "title": "Card V2",
-      "id": "card_v2",
-      "model": "card_v2",
+      "title": "card_v2",
+      "id": "card-v2",
+      "model": "card-v2",
       "plugins": {
         "da": {
           "rows": 1,
@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "card_v2",
+      "id": "card-v2",
       "fields": [
         {
           "component": "reference",
@@ -74,9 +74,9 @@
   ],
   "filters": [
     {
-      "id": "cards_v2",
+      "id": "cards-v2",
       "components": [
-        "card_v2"
+        "card-v2"
       ]
     }
   ]
