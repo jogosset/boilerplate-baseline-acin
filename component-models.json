@@ -238,7 +238,7 @@
     ]
   },
   {
-    "id": "card_v2",
+    "id": "card-v2",
     "fields": [
       {
         "component": "reference",
