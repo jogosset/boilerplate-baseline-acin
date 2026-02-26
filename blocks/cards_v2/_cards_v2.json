@@ -1,0 +1,83 @@
+{
+  "definitions": [
+    {
+      "title": "Cards V2",
+      "id": "cards_v2",
+      "model": "cards_v2",
+      "filter": "cards_v2",
+      "plugins": {
+        "da": {
+          "rows": 1,
+          "columns": 2
+        }
+      }
+    },
+    {
+      "title": "Card V2",
+      "id": "card_v2",
+      "model": "card_v2",
+      "plugins": {
+        "da": {
+          "rows": 1,
+          "columns": 4,
+          "fields": [
+            { "name": "image", "selector": "div:nth-child(1)>picture>img[src]" },
+            { "name": "imageAlt", "selector": "div:nth-child(1)>picture>img[alt]" },
+            { "name": "backgroundColor", "selector": "div:nth-child(2)" },
+            { "name": "title", "selector": "div:nth-child(3)" },
+            { "name": "body", "selector": "div:nth-child(4)" }
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "card_v2",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "label": "Image Alt",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "backgroundColor",
+          "label": "Background Color",
+          "description": "Any valid CSS color (for example: #f6f2ff, rgb(245,245,245), lightyellow)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "title",
+          "label": "Title"
+        },
+        {
+          "component": "richtext",
+          "name": "body",
+          "value": "",
+          "label": "Body",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "cards_v2",
+      "components": [
+        "card_v2"
+      ]
+    }
+  ]
+}
