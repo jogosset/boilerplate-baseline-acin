@@ -1,0 +1,13 @@
+/* suppress nested section padding */
+.fragment-1-wrapper > .section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fragment-1-wrapper > .section:first-of-type {
+  padding-top: 0;
+}
+
+.fragment-1-wrapper > .section:last-of-type {
+  padding-bottom: 0;
+}

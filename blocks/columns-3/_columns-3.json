@@ -1,0 +1,71 @@
+{
+  "definitions": [
+    {
+      "title": "Columns",
+      "id": "columns-3",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div class=\"columns-3\"><div><div><p></p></div><div><p></p></div></div></div>",
+          "behaviour": "columns-3"
+        }
+      }
+    },
+    {
+      "title": "Columns Row",
+      "id": "columns-3-row",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div><div><p></p></div><div><p></p></div></div>",
+          "behaviour": "columns-3-row"
+        }
+      }
+    },
+    {
+      "title": "Columns Cell",
+      "id": "columns-3-cell",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div></div>",
+          "behaviour": "columns-3-cell"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-3",
+      "fields": [
+        {
+          "component": "number",
+          "valueType": "number",
+          "name": "columns-3",
+          "label": "Number of Columns",
+          "value": 2,
+          "validation": {
+            "numberMin": 1,
+            "numberMax": 6
+          }
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "columns-3",
+      "components": [
+        "columns-3-row"
+      ]
+    },
+    {
+      "id": "columns-3-row",
+      "components": []
+    },
+    {
+      "id": "columns-3-cell",
+      "components": [
+        "text",
+        "image"
+      ]
+    }
+  ]
+}

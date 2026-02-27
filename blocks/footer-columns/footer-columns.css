@@ -1,0 +1,154 @@
+/* Footer Columns Block - Uses AEM's native centering */
+
+/* Block-specific design tokens */
+.footer-columns {
+  --footer-columns-desktop: 6;
+  --footer-columns-tablet: 3;
+  --footer-columns-mobile: 1;
+  --footer-breakpoint-tablet: 1024px;
+  --footer-breakpoint-mobile: 768px;
+  --footer-accordion-max-height: 1000px;
+  --footer-chevron-rotation: 45deg;
+  --footer-chevron-rotation-expanded: -135deg;
+  --footer-resize-debounce: 250ms;
+}
+
+.footer-columns-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--footer-columns-desktop), 1fr);
+  gap: 0 var(--spacing-xsmall);
+  column-gap: var(--spacing-xsmall);
+}
+
+/* Individual Column */
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Column Header - inherits default heading styles from DA.live */
+.footer-column-header {
+  margin-bottom: 0;
+  font: var(--type-body-2-default-font);
+  letter-spacing: var(--type-body-2-default-letter-spacing);
+  line-height: calc(var(--spacing-xxsmall) + var(--shape-border-width-1));
+}
+
+.footer-column-header::after {
+  display: none;
+}
+
+/* Column Links List */
+.footer-column-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  font: var(--type-body-2-default-font);
+  letter-spacing: var(--type-body-2-default-letter-spacing);
+  line-height: calc(var(--spacing-xxsmall) + var(--shape-border-width-1));
+}
+
+.footer-column-links li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Link Styling - inherits default link styles */
+.footer-column-links a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  transition: opacity var(--duration-200, 0.2s) ease;
+}
+
+.footer-column-links a:hover {
+  opacity: var(--hover-opacity, 0.7);
+  text-decoration: underline;
+}
+
+/* Social Media Icons Support */
+.footer-column-links a img {
+  width: var(--icon-size-small, 20px);
+  height: var(--icon-size-small, 20px);
+  vertical-align: middle;
+}
+
+/* Tablet: 3 columns × 2 rows */
+@media (max-width: 1024px) {
+  .footer-columns-grid {
+    grid-template-columns: repeat(var(--footer-columns-tablet), 1fr);
+    gap: calc(var(--spacing-medium) / 2) var(--spacing-xsmall);
+  }
+}
+
+/* Mobile: Accordion layout */
+@media (max-width: 768px) {
+  .footer-columns-grid {
+    grid-template-columns: repeat(var(--footer-columns-mobile), 1fr);
+    gap: 0;
+  }
+
+  .footer-column {
+    border-bottom: var(--shape-border-width-1) solid var(--color-neutral-200);
+  }
+
+  .footer-column:last-child {
+    border-bottom: none;
+  }
+
+  /* Accordion header styling */
+  .footer-column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-small) 0;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .footer-column-header::after {
+    display: block;
+    content: '';
+    width: calc(var(--spacing-xsmall) + var(--shape-border-width-1));
+    height: calc(var(--spacing-xsmall) + var(--shape-border-width-1));
+    border-right: var(--shape-border-width-3) solid currentcolor;
+    border-bottom: var(--shape-border-width-3) solid currentcolor;
+    transform: rotate(var(--footer-chevron-rotation));
+    transition: transform var(--duration-300, 0.3s) ease;
+    flex-shrink: 0;
+    margin-left: var(--spacing-xsmall);
+  }
+
+  .footer-column.expanded .footer-column-header::after {
+    transform: rotate(var(--footer-chevron-rotation-expanded));
+  }
+
+  /* Collapsible content - collapsed by default */
+  .footer-column-links {
+    max-height: 0 !important;
+    overflow: hidden !important;
+    transition: max-height var(--duration-300, 0.3s) ease;
+    padding-top: 0;
+  }
+
+  .footer-column.expanded .footer-column-links {
+    max-height: var(--footer-accordion-max-height) !important;
+    overflow: visible !important;
+    padding-bottom: var(--spacing-small);
+  }
+
+  .footer-column-links li {
+    padding: 0;
+  }
+
+  .footer-column-links li:first-child {
+    padding-top: 0;
+  }
+}

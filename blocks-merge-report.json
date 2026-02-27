@@ -1,0 +1,746 @@
+[
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "adventure-details",
+    "targetName": "adventure-details",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "beat-the-buzzer-banner",
+    "targetName": "beat-the-buzzer-banner",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "carousel",
+    "targetName": "carousel-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "columns",
+    "targetName": "columns-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "commerce-account",
+    "targetName": "commerce-account",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "commerce-cart",
+    "targetName": "commerce-cart-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "commerce-checkout",
+    "targetName": "commerce-checkout-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "commerce-login",
+    "targetName": "commerce-login-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "commerce-order-confirmation",
+    "targetName": "commerce-order-confirmation",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "destinations",
+    "targetName": "destinations",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "enrichment",
+    "targetName": "enrichment-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "footer",
+    "targetName": "footer-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "form",
+    "targetName": "form",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "fragment",
+    "targetName": "fragment-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "header",
+    "targetName": "header-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "header-topnav",
+    "targetName": "header-topnav",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "hero",
+    "targetName": "hero-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "popular-adventures",
+    "targetName": "popular-adventures",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "product-details",
+    "targetName": "product-details-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "product-details-custom",
+    "targetName": "product-details-custom",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "product-enrichment",
+    "targetName": "product-enrichment",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "product-list-page",
+    "targetName": "product-list-page-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "product-list-page-custom",
+    "targetName": "product-list-page-custom",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "product-teaser",
+    "targetName": "product-teaser",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "recommended-products",
+    "targetName": "recommended-products",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "xsc-wknd-commerce",
+    "originalName": "tabs",
+    "targetName": "tabs",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "accordion",
+    "targetName": "accordion-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "cards",
+    "targetName": "cards-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "cards-circular",
+    "targetName": "cards-circular",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "cards-list",
+    "targetName": "cards-list",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "carousel",
+    "targetName": "carousel-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "columns",
+    "targetName": "columns-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-account-header",
+    "targetName": "commerce-account-header-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-account-sidebar",
+    "targetName": "commerce-account-sidebar-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-addresses",
+    "targetName": "commerce-addresses-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-cart",
+    "targetName": "commerce-cart-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-checkout",
+    "targetName": "commerce-checkout-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-confirm-account",
+    "targetName": "commerce-confirm-account-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-create-account",
+    "targetName": "commerce-create-account-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-create-password",
+    "targetName": "commerce-create-password-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-create-return",
+    "targetName": "commerce-create-return-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-customer-details",
+    "targetName": "commerce-customer-details-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-customer-information",
+    "targetName": "commerce-customer-information-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-forgot-password",
+    "targetName": "commerce-forgot-password-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-gift-options",
+    "targetName": "commerce-gift-options-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-login",
+    "targetName": "commerce-login-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-mini-cart",
+    "targetName": "commerce-mini-cart-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-mini-pdp",
+    "targetName": "commerce-mini-pdp",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-order-cost-summary",
+    "targetName": "commerce-order-cost-summary-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-order-header",
+    "targetName": "commerce-order-header-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-order-product-list",
+    "targetName": "commerce-order-product-list-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-order-returns",
+    "targetName": "commerce-order-returns-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-order-status",
+    "targetName": "commerce-order-status-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-orders-list",
+    "targetName": "commerce-orders-list-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-return-header",
+    "targetName": "commerce-return-header-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-returns-list",
+    "targetName": "commerce-returns-list-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-search-order",
+    "targetName": "commerce-search-order-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-shipping-status",
+    "targetName": "commerce-shipping-status-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "commerce-wishlist",
+    "targetName": "commerce-wishlist-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "enrichment",
+    "targetName": "enrichment-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "footer",
+    "targetName": "footer-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "footer-columns",
+    "targetName": "footer-columns",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "fragment",
+    "targetName": "fragment-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "header",
+    "targetName": "header-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "hero",
+    "targetName": "hero-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "luxury-events",
+    "targetName": "luxury-events",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "modal",
+    "targetName": "modal-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "newsletter",
+    "targetName": "newsletter-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "product-details",
+    "targetName": "product-details-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "product-list-page",
+    "targetName": "product-list-page-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "product-recommendations",
+    "targetName": "product-recommendations-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "promotional-hero",
+    "targetName": "promotional-hero-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "luxuryretail",
+    "originalName": "targeted-block",
+    "targetName": "targeted-block-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "accordion",
+    "targetName": "accordion-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "blog-post",
+    "targetName": "blog-post",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "blog-tiles",
+    "targetName": "blog-tiles",
+    "renamed": false
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "cards",
+    "targetName": "cards-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "cards-list",
+    "targetName": "cards-list-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "carousel",
+    "targetName": "carousel-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "circle-carousel",
+    "targetName": "circle-carousel-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "columns",
+    "targetName": "columns-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-account-header",
+    "targetName": "commerce-account-header-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-account-sidebar",
+    "targetName": "commerce-account-sidebar-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-addresses",
+    "targetName": "commerce-addresses-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-cart",
+    "targetName": "commerce-cart-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-checkout",
+    "targetName": "commerce-checkout-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-checkout-success",
+    "targetName": "commerce-checkout-success-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-confirm-account",
+    "targetName": "commerce-confirm-account-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-create-account",
+    "targetName": "commerce-create-account-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-create-password",
+    "targetName": "commerce-create-password-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-create-return",
+    "targetName": "commerce-create-return-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-customer-details",
+    "targetName": "commerce-customer-details-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-customer-information",
+    "targetName": "commerce-customer-information-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-forgot-password",
+    "targetName": "commerce-forgot-password-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-gift-options",
+    "targetName": "commerce-gift-options-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-login",
+    "targetName": "commerce-login-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-mini-cart",
+    "targetName": "commerce-mini-cart-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-order-cost-summary",
+    "targetName": "commerce-order-cost-summary-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-order-header",
+    "targetName": "commerce-order-header-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-order-product-list",
+    "targetName": "commerce-order-product-list-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-order-returns",
+    "targetName": "commerce-order-returns-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-order-status",
+    "targetName": "commerce-order-status-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-orders-list",
+    "targetName": "commerce-orders-list-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-return-header",
+    "targetName": "commerce-return-header-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-returns-list",
+    "targetName": "commerce-returns-list-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-search-order",
+    "targetName": "commerce-search-order-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-shipping-status",
+    "targetName": "commerce-shipping-status-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "commerce-wishlist",
+    "targetName": "commerce-wishlist-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "enrichment",
+    "targetName": "enrichment-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "footer",
+    "targetName": "footer-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "fragment",
+    "targetName": "fragment-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "header",
+    "targetName": "header-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "hero",
+    "targetName": "hero-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "hero-cta",
+    "targetName": "hero-cta-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "modal",
+    "targetName": "modal-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "newsletter",
+    "targetName": "newsletter-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "product-details",
+    "targetName": "product-details-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "product-list-page",
+    "targetName": "product-list-page-3",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "product-recommendations",
+    "targetName": "product-recommendations-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "promotional-hero",
+    "targetName": "promotional-hero-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "search-bar",
+    "targetName": "search-bar-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "store-locator",
+    "targetName": "store-locator-1",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "targeted-block",
+    "targetName": "targeted-block-2",
+    "renamed": true
+  },
+  {
+    "sourceRepo": "isle5",
+    "originalName": "top-banner",
+    "targetName": "top-banner-1",
+    "renamed": true
+  }
+]

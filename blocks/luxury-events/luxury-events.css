@@ -1,0 +1,205 @@
+.luxury-events {
+  background-color: #e8f0ed;
+  padding: var(--spacing-medium) 0;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.luxury-events-header {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-medium);
+  padding: 0 var(--spacing-medium) var(--spacing-small);
+  position: relative;
+  z-index: 1;
+}
+
+.luxury-events-title {
+  margin-bottom: var(--spacing-small);
+}
+
+.luxury-events-title img {
+  max-width: 100px;
+  height: auto;
+  margin: 0 auto 4px;
+}
+
+.luxury-events-title h2,
+.luxury-events-title h3 {
+  margin: 0;
+}
+
+.luxury-events-subtitle {
+  color: var(--text-color);
+}
+
+.luxury-events-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-large);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-medium);
+}
+
+.luxury-events-card {
+  position: relative;
+  min-height: 300px;
+  border-radius: 8px;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: var(--spacing-xxlarge);
+  z-index: 0;
+}
+
+.luxury-events-card-image {
+  position: absolute;
+  top: -47px;
+  left: 5%;
+  width: 90%;
+  height: 312px;
+  z-index: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+  transition: box-shadow 0.3s ease;
+  background-color: var(--color-neutral-100);
+}
+
+.luxury-events-card:hover .luxury-events-card-image {
+  box-shadow: 0 12px 40px rgb(0 0 0 / 20%);
+}
+
+.luxury-events-card-image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.luxury-events-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.luxury-events-card:hover .luxury-events-card-image img {
+  transform: scale(1.05);
+}
+
+/* White intersection box */
+.luxury-events-card-content {
+  position: absolute;
+  top: 205px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background: white;
+  padding: var(--spacing-medium) var(--spacing-small);
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 15%);
+  text-align: center;
+  max-width: 85%;
+  width: auto;
+  min-width: 260px;
+  min-height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.luxury-events-card:hover .luxury-events-card-content {
+  transform: translateX(-50%) translateY(-4px);
+  box-shadow: 0 8px 30px rgb(0 0 0 / 20%);
+}
+
+.luxury-events-card-title {
+  margin-bottom: var(--spacing-xsmall);
+  color: var(--text-color);
+}
+
+.luxury-events-card-description {
+  color: var(--text-color);
+  margin-bottom: var(--spacing-small);
+}
+
+.luxury-events-card-link {
+  margin-top: var(--spacing-xsmall);
+}
+
+.luxury-events-link {
+  color: var(--text-color);
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+  display: inline-block;
+}
+
+.luxury-events-link:hover {
+  opacity: 0.7;
+}
+
+/* Tablet responsive */
+@media (max-width: 900px) {
+  .luxury-events {
+    padding: var(--spacing-small) 0;
+  }
+
+  .luxury-events-cards {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-xlarge);
+  }
+
+  .luxury-events-card {
+    min-height: 280px;
+  }
+
+  .luxury-events-card-image {
+    top: -42px;
+    left: 5%;
+    width: 90%;
+    height: 281px;
+  }
+
+  .luxury-events-card-content {
+    top: 179px;
+    max-width: 88%;
+    min-width: 240px;
+    min-height: 112px;
+    padding: var(--spacing-small);
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .luxury-events {
+    padding: var(--spacing-small) 0;
+  }
+
+  .luxury-events-cards {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xlarge);
+  }
+
+  .luxury-events-card {
+    min-height: 260px;
+  }
+
+  .luxury-events-card-image {
+    top: -38px;
+    left: 5%;
+    width: 90%;
+    height: 250px;
+  }
+
+  .luxury-events-card-content {
+    top: 152px;
+    max-width: 90%;
+    min-width: 220px;
+    min-height: 98px;
+    padding: var(--spacing-small);
+  }
+}

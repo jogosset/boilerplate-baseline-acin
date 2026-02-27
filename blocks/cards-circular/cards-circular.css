@@ -1,0 +1,232 @@
+.cards-circular-container .cards-circular-wrapper {
+  margin-top: var(--spacing-xbig);
+}
+
+.cards-circular > ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: var(--spacing-small);
+  place-items: center;
+  max-width: 1000px;
+  position: relative;
+}
+
+.cards-circular > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 180px;
+  position: relative;
+}
+
+/* First row - 5 items evenly spaced */
+.cards-circular > ul > li:nth-child(1) {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.cards-circular > ul > li:nth-child(2) {
+  grid-column: 3 / 5;
+  grid-row: 1;
+}
+
+.cards-circular > ul > li:nth-child(3) {
+  grid-column: 5 / 7;
+  grid-row: 1;
+}
+
+.cards-circular > ul > li:nth-child(4) {
+  grid-column: 7 / 9;
+  grid-row: 1;
+}
+
+.cards-circular > ul > li:nth-child(5) {
+  grid-column: 9 / 11;
+  grid-row: 1;
+}
+
+/* Second row - 4 items offset for honeycomb effect */
+.cards-circular > ul > li:nth-child(6) {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  transform: translateY(-30px);
+}
+
+.cards-circular > ul > li:nth-child(7) {
+  grid-column: 4 / 6;
+  grid-row: 2;
+  transform: translateY(-30px);
+}
+
+.cards-circular > ul > li:nth-child(8) {
+  grid-column: 6 / 8;
+  grid-row: 2;
+  transform: translateY(-30px);
+}
+
+.cards-circular > ul > li:nth-child(9) {
+  grid-column: 8 / 10;
+  grid-row: 2;
+  transform: translateY(-30px);
+}
+
+/* Additional items beyond 9 continue the honeycomb pattern */
+.cards-circular > ul > li:nth-child(10) {
+  grid-column: 1 / 3;
+  grid-row: 3;
+}
+
+.cards-circular > ul > li:nth-child(11) {
+  grid-column: 3 / 5;
+  grid-row: 3;
+}
+
+.cards-circular > ul > li:nth-child(12) {
+  grid-column: 5 / 7;
+  grid-row: 3;
+}
+
+.cards-circular > ul > li:nth-child(13) {
+  grid-column: 7 / 9;
+  grid-row: 3;
+}
+
+.cards-circular > ul > li:nth-child(14) {
+  grid-column: 9 / 11;
+  grid-row: 3;
+}
+
+.cards-circular > ul > li:nth-child(15) {
+  grid-column: 2 / 4;
+  grid-row: 4;
+  transform: translateY(-30px);
+}
+
+.cards-circular > ul > li:nth-child(n+16) {
+  grid-column: auto;
+  grid-row: auto;
+  transform: none;
+}
+
+.cards-circular .cards-circular-item-image {
+  margin-bottom: 4px;
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--color-neutral-100);
+  transition: transform 0.3s ease;
+}
+
+.cards-circular .cards-circular-item-image:hover {
+  transform: scale(1.05);
+}
+
+.cards-circular .cards-circular-item-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  object-position: center;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.cards-circular .cards-circular-item-body {
+  margin-top: 0;
+}
+
+.cards-circular .cards-circular-item-body h3,
+.cards-circular .cards-circular-item-body h4,
+.cards-circular .cards-circular-item-body h5,
+.cards-circular .cards-circular-item-body h6 {
+  margin: 0;
+  color: var(--text-color);
+}
+
+.cards-circular .cards-circular-item-link a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+.cards-circular .cards-circular-item-link a:hover {
+  text-decoration: underline;
+}
+
+/* Tablet and Mobile responsive - 3x3 grid */
+@media (max-width: 1024px) {
+  .cards-circular > ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: var(--spacing-small);
+    max-width: 450px;
+    align-items: start;
+  }
+
+  .cards-circular > ul > li {
+    max-width: 140px;
+    align-self: start;
+  }
+
+  /* Reset ALL desktop positioning - unified behavior for all items */
+  .cards-circular > ul > li:nth-child(n) {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    transform: none !important;
+    justify-self: center !important;
+  }
+
+  .cards-circular .cards-circular-item-image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .cards-circular .cards-circular-item-image img {
+    width: 120%;
+    height: 120%;
+  }
+}
+
+/* Small mobile - 3x3 grid layout */
+@media (max-width: 480px) {
+  .cards-circular > ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: var(--spacing-xs);
+    max-width: 300px;
+    align-items: start;
+  }
+
+  .cards-circular > ul > li {
+    max-width: 100px;
+    align-self: start;
+  }
+
+  /* Reset ALL desktop positioning - unified behavior for all items */
+  .cards-circular > ul > li:nth-child(n) {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    transform: none !important;
+    justify-self: center !important;
+  }
+
+  .cards-circular .cards-circular-item-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .cards-circular .cards-circular-item-image img {
+    width: 120%;
+    height: 120%;
+  }
+}
