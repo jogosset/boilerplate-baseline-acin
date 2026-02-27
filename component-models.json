@@ -293,10 +293,52 @@
         "label": "Background Image Alt"
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "textBoxBackgroundColor",
+        "label": "Text Box Background Color"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "textColor",
+        "label": "Text Color"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "titleColor",
+        "label": "Title Color"
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "titleBold",
+        "label": "Title Bold"
+      },
+      {
         "component": "richtext",
-        "name": "text",
-        "label": "Text",
+        "name": "body",
+        "label": "Body",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "bodyColor",
+        "label": "Body Color"
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "bodyBold",
+        "label": "Body Bold"
       }
     ]
   },

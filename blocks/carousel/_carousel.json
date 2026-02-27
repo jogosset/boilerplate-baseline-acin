@@ -19,11 +19,18 @@
       "plugins": {
         "da": {
           "rows": 1,
-          "columns": 2,
+          "columns": 9,
           "fields": [
             { "name": "backgroundImage", "selector": "div:nth-child(1)>picture>img[src]" },
             { "name": "backgroundImageAlt", "selector": "div:nth-child(1)>picture>img[alt]" },
-            { "name": "text", "selector": "div:nth-child(2)" }
+            { "name": "textBoxBackgroundColor", "selector": "div:nth-child(2)" },
+            { "name": "textColor", "selector": "div:nth-child(3)" },
+            { "name": "title", "selector": "div:nth-child(4)" },
+            { "name": "titleColor", "selector": "div:nth-child(5)" },
+            { "name": "titleBold", "selector": "div:nth-child(6)" },
+            { "name": "body", "selector": "div:nth-child(7)" },
+            { "name": "bodyColor", "selector": "div:nth-child(8)" },
+            { "name": "bodyBold", "selector": "div:nth-child(9)" }
           ]
         }
       }
@@ -47,10 +54,52 @@
           "label": "Background Image Alt"
         },
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "textBoxBackgroundColor",
+          "label": "Text Box Background Color"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "textColor",
+          "label": "Text Color"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "title",
+          "label": "Title"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "titleColor",
+          "label": "Title Color"
+        },
+        {
+          "component": "boolean",
+          "valueType": "boolean",
+          "name": "titleBold",
+          "label": "Title Bold"
+        },
+        {
           "component": "richtext",
-          "name": "text",
-          "label": "Text",
+          "name": "body",
+          "label": "Body",
           "valueType": "string"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "bodyColor",
+          "label": "Body Color"
+        },
+        {
+          "component": "boolean",
+          "valueType": "boolean",
+          "name": "bodyBold",
+          "label": "Body Bold"
         }
       ]
     }

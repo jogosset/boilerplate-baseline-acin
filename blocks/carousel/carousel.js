@@ -80,18 +80,72 @@ function startAutoplay(block, interval = 6000) {
   }, interval);
 }
 
+function toBoolean(value) {
+  if (typeof value !== 'string') return false;
+  return ['true', 'yes', '1', 'on'].includes(value.trim().toLowerCase());
+}
+
+function createStructuredSlideContent(row, slideIndex, carouselInstanceId) {
+  const columns = [...row.querySelectorAll(':scope > div')];
+  const content = document.createElement('div');
+  content.classList.add('carousel-slide-content');
+
+  const textBoxBackgroundColor = columns[1]?.textContent?.trim();
+  const textColor = columns[2]?.textContent?.trim();
+  const title = columns[3]?.textContent?.trim();
+  const titleColor = columns[4]?.textContent?.trim();
+  const titleBold = toBoolean(columns[5]?.textContent);
+  const body = columns[6]?.innerHTML?.trim();
+  const bodyColor = columns[7]?.textContent?.trim();
+  const bodyBold = toBoolean(columns[8]?.textContent);
+
+  if (textBoxBackgroundColor) content.style.backgroundColor = textBoxBackgroundColor;
+  if (textColor) content.style.color = textColor;
+
+  if (title) {
+    const heading = document.createElement('h2');
+    heading.classList.add('carousel-slide-title');
+    heading.setAttribute('id', `carousel-${carouselInstanceId}-slide-${slideIndex}-title`);
+    heading.textContent = title;
+    if (titleColor) heading.style.color = titleColor;
+    if (titleBold) heading.style.fontWeight = '700';
+    content.append(heading);
+  }
+
+  if (body) {
+    const bodyEl = document.createElement('div');
+    bodyEl.classList.add('carousel-slide-body');
+    bodyEl.innerHTML = body;
+    if (bodyColor) bodyEl.style.color = bodyColor;
+    if (bodyBold) bodyEl.style.fontWeight = '700';
+    content.append(bodyEl);
+  }
+
+  return content;
+}
+
 function createSlide(row, slideIndex, carouselId) {
   const slide = document.createElement('li');
   slide.dataset.slideIndex = slideIndex;
   slide.setAttribute('id', `carousel-${carouselId}-slide-${slideIndex}`);
   slide.classList.add('carousel-slide');
 
-  row.querySelectorAll(':scope > div').forEach((column, colIdx) => {
-    column.classList.add(
-      `carousel-slide-${colIdx === 0 ? 'image' : 'content'}`,
-    );
-    slide.append(column);
-  });
+  const columns = [...row.querySelectorAll(':scope > div')];
+  const imageColumn = columns[0];
+  if (imageColumn) {
+    imageColumn.classList.add('carousel-slide-image');
+    slide.append(imageColumn);
+  }
+
+  // New structured schema:
+  // [image, textBoxBackgroundColor, textColor, title, titleColor, titleBold, body, bodyColor, bodyBold]
+  if (columns.length >= 9) {
+    slide.append(createStructuredSlideContent(row, slideIndex, carouselId));
+  } else if (columns[1]) {
+    // Legacy schema: [image, richtext text]
+    columns[1].classList.add('carousel-slide-content');
+    slide.append(columns[1]);
+  }
 
   const labeledBy = slide.querySelector('h1, h2, h3, h4, h5, h6');
   if (labeledBy) {

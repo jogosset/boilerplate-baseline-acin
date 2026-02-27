@@ -72,6 +72,18 @@ main > .section .carousel-wrapper {
     width: var(--slide-content-width, auto);
 }
 
+.carousel .carousel-slide .carousel-slide-title {
+    margin: 0 0 var(--spacing-xsmall);
+}
+
+.carousel .carousel-slide .carousel-slide-body > :first-child {
+    margin-top: 0;
+}
+
+.carousel .carousel-slide .carousel-slide-body > :last-child {
+    margin-bottom: 0;
+}
+
 .carousel nav {
     position: relative;
 }
