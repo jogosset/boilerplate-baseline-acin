@@ -1,0 +1,10 @@
+/* .commerce-customer-details {
+} */
+
+.commerce-order-product-list-1 {
+    margin-bottom: var(--spacing-small);
+}
+
+.commerce-order-product-list-1 .dropin-cart-item a:hover {
+    text-decoration: none;
+}
