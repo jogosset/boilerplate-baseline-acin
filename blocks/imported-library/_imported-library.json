@@ -1,0 +1,248 @@
+{
+  "definitions": [
+    {
+      "title": "Adventure Details",
+      "id": "adventure-details",
+      "plugins": {
+        "da": {
+          "name": "adventure-details",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Beat The Buzzer Banner",
+      "id": "beat-the-buzzer-banner",
+      "plugins": {
+        "da": {
+          "name": "beat-the-buzzer-banner",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Cards Circular",
+      "id": "cards-circular",
+      "plugins": {
+        "da": {
+          "name": "cards-circular",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Cards List",
+      "id": "cards-list",
+      "plugins": {
+        "da": {
+          "name": "cards-list",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Commerce Account",
+      "id": "commerce-account",
+      "plugins": {
+        "da": {
+          "name": "commerce-account",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Commerce Mini PDP",
+      "id": "commerce-mini-pdp",
+      "plugins": {
+        "da": {
+          "name": "commerce-mini-pdp",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Commerce Order Confirmation",
+      "id": "commerce-order-confirmation",
+      "plugins": {
+        "da": {
+          "name": "commerce-order-confirmation",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Destinations",
+      "id": "destinations",
+      "plugins": {
+        "da": {
+          "name": "destinations",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Footer",
+      "id": "footer",
+      "plugins": {
+        "da": {
+          "name": "footer",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Footer Columns",
+      "id": "footer-columns",
+      "plugins": {
+        "da": {
+          "name": "footer-columns",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Form",
+      "id": "form",
+      "plugins": {
+        "da": {
+          "name": "form",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Header",
+      "id": "header",
+      "plugins": {
+        "da": {
+          "name": "header",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Header Topnav",
+      "id": "header-topnav",
+      "plugins": {
+        "da": {
+          "name": "header-topnav",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Luxury Events",
+      "id": "luxury-events",
+      "plugins": {
+        "da": {
+          "name": "luxury-events",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Modal",
+      "id": "modal",
+      "plugins": {
+        "da": {
+          "name": "modal",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Popular Adventures",
+      "id": "popular-adventures",
+      "plugins": {
+        "da": {
+          "name": "popular-adventures",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Product Details Custom",
+      "id": "product-details-custom",
+      "plugins": {
+        "da": {
+          "name": "product-details-custom",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Product Enrichment",
+      "id": "product-enrichment",
+      "plugins": {
+        "da": {
+          "name": "product-enrichment",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Product List Page Custom",
+      "id": "product-list-page-custom",
+      "plugins": {
+        "da": {
+          "name": "product-list-page-custom",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Product Teaser",
+      "id": "product-teaser",
+      "plugins": {
+        "da": {
+          "name": "product-teaser",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Recommended Products",
+      "id": "recommended-products",
+      "plugins": {
+        "da": {
+          "name": "recommended-products",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    },
+    {
+      "title": "Tabs",
+      "id": "tabs",
+      "plugins": {
+        "da": {
+          "name": "tabs",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}
