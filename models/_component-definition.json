@@ -26,46 +26,14 @@
       "id": "blocks",
       "components": [
         {
-          "...": "../blocks/accordion/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/cards/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/cards-v2/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/carousel/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/columns/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/enrichment/_*.json#/definitions"
-        },
-
-        {
-          "...": "../blocks/fragment/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/hero/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/targeted-block/_*.json#/definitions"
-        },
-        {
-          "...": "../blocks/commerce-*/_*.json#/definitions"
+          "...": "../blocks/*/_*.json#/definitions"
         }
       ]
     },
     {
       "title": "Product",
       "id": "product",
-      "components": [
-        {
-          "...": "../blocks/product-*/_*.json#/definitions"
-        }
-      ]
+      "components": []
     }
   ]
 }
