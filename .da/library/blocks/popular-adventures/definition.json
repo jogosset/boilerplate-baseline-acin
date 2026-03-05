@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Popular Adventures",
+      "id": "popular-adventures",
+      "plugins": {
+        "da": {
+          "name": "popular-adventures",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}

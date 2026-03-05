@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Recommended Products",
+      "id": "recommended-products",
+      "plugins": {
+        "da": {
+          "name": "recommended-products",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}

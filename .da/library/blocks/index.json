@@ -1,0 +1,68 @@
+{
+  "blocks": [
+    {
+      "id": "accordion",
+      "path": "./accordion/definition.json"
+    },
+    {
+      "id": "adventure-details",
+      "path": "./adventure-details/definition.json"
+    },
+    {
+      "id": "beat-the-buzzer-banner",
+      "path": "./beat-the-buzzer-banner/definition.json"
+    },
+    {
+      "id": "blog-post",
+      "path": "./blog-post/definition.json"
+    },
+    {
+      "id": "blog-tiles",
+      "path": "./blog-tiles/definition.json"
+    },
+    {
+      "id": "cards-circular",
+      "path": "./cards-circular/definition.json"
+    },
+    {
+      "id": "cards-list",
+      "path": "./cards-list/definition.json"
+    },
+    {
+      "id": "cards-v2",
+      "path": "./cards-v2/definition.json"
+    },
+    {
+      "id": "destinations",
+      "path": "./destinations/definition.json"
+    },
+    {
+      "id": "enrichment",
+      "path": "./enrichment/definition.json"
+    },
+    {
+      "id": "form",
+      "path": "./form/definition.json"
+    },
+    {
+      "id": "luxury-events",
+      "path": "./luxury-events/definition.json"
+    },
+    {
+      "id": "popular-adventures",
+      "path": "./popular-adventures/definition.json"
+    },
+    {
+      "id": "recommended-products",
+      "path": "./recommended-products/definition.json"
+    },
+    {
+      "id": "targeted-block",
+      "path": "./targeted-block/definition.json"
+    },
+    {
+      "id": "tabs",
+      "path": "./tabs/definition.json"
+    }
+  ]
+}

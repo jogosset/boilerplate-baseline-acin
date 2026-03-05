@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Luxury Events",
+      "id": "luxury-events",
+      "plugins": {
+        "da": {
+          "name": "luxury-events",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}

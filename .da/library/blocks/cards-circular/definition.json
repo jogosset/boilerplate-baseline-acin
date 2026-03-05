@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Cards Circular",
+      "id": "cards-circular",
+      "plugins": {
+        "da": {
+          "name": "cards-circular",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}

@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Destinations",
+      "id": "destinations",
+      "plugins": {
+        "da": {
+          "name": "destinations",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}

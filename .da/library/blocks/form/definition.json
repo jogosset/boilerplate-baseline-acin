@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Form",
+      "id": "form",
+      "plugins": {
+        "da": {
+          "name": "form",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}

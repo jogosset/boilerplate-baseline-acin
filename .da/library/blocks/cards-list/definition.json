@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Cards List",
+      "id": "cards-list",
+      "plugins": {
+        "da": {
+          "name": "cards-list",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}

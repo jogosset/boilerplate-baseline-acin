@@ -1,0 +1,17 @@
+{
+  "definitions": [
+    {
+      "title": "Beat The Buzzer Banner",
+      "id": "beat-the-buzzer-banner",
+      "plugins": {
+        "da": {
+          "name": "beat-the-buzzer-banner",
+          "rows": 1,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [],
+  "filters": []
+}
