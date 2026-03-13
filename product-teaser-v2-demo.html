@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="script-src 'nonce-aem' 'strict-dynamic' 'unsafe-inline' http: https:; base-uri 'self'; object-src 'none';"
+    move-to-http-header="true"
+  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Teaser V2 Demo</title>
+  <script nonce="aem" type="speculationrules">
+    {
+      "prerender": [{
+        "where": {
+          "href_matches": "/*"
+        },
+        "eagerness": "moderate"
+      }]
+    }
+  </script>
+  <script nonce="aem" type="importmap">
+    {
+      "imports": {
+        "@dropins/storefront-account/": "/scripts/__dropins__/storefront-account/",
+        "@dropins/storefront-auth/": "/scripts/__dropins__/storefront-auth/",
+        "@dropins/storefront-cart/": "/scripts/__dropins__/storefront-cart/",
+        "@dropins/storefront-checkout/": "/scripts/__dropins__/storefront-checkout/",
+        "@dropins/storefront-order/": "/scripts/__dropins__/storefront-order/",
+        "@dropins/storefront-payment-services/": "/scripts/__dropins__/storefront-payment-services/",
+        "@dropins/storefront-pdp/": "/scripts/__dropins__/storefront-pdp/",
+        "@dropins/storefront-recommendations/": "/scripts/__dropins__/storefront-recommendations/",
+        "@dropins/storefront-wishlist/": "/scripts/__dropins__/storefront-wishlist/",
+        "@dropins/storefront-personalization/": "/scripts/__dropins__/storefront-personalization/",
+        "@dropins/storefront-product-discovery/": "/scripts/__dropins__/storefront-product-discovery/",
+        "@dropins/tools/": "/scripts/__dropins__/tools/"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <script nonce="aem" type="module">
+    if (!(HTMLScriptElement.supports?.('importmap'))) {
+      import('/scripts/__dropins__/tools/shims/importmap.js');
+    }
+  </script>
+  <script nonce="aem" src="/scripts/aem.js" type="module"></script>
+  <script nonce="aem" src="/scripts/scripts.js" type="module"></script>
+  <script nonce="aem" src="/scripts/commerce.js" type="module"></script>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div>
+      <div>
+        <h1>Product Teaser V2 Demo</h1>
+        <p>Published verification page for the Product Teaser V2 block using live commerce data.</p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div class="product-teaser-v2">
+          <div>
+            <div>sku</div>
+            <div>ADB150</div>
+          </div>
+          <div>
+            <div>details-button</div>
+            <div>true</div>
+          </div>
+          <div>
+            <div>cart-button</div>
+            <div>true</div>
+          </div>
+          <div>
+            <div>background-color</div>
+            <div>#f3efe5</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
+</html>

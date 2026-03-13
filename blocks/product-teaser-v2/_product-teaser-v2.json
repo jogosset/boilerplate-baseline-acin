@@ -1,0 +1,49 @@
+{
+  "definitions": [
+    {
+      "title": "Product Teaser V2",
+      "id": "product-teaser-v2",
+      "model": "product-teaser-v2",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "product-teaser-v2",
+      "fields": [
+        {
+          "component": "text",
+          "name": "sku",
+          "label": "SKU",
+          "required": true
+        },
+        {
+          "component": "boolean",
+          "valueType": "boolean",
+          "name": "details-button",
+          "label": "Show Details Button",
+          "value": true
+        },
+        {
+          "component": "boolean",
+          "valueType": "boolean",
+          "name": "cart-button",
+          "label": "Show Add To Cart Button",
+          "value": true
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "background-color",
+          "label": "Background Color",
+          "description": "Any valid CSS color (for example: #f3efe5, rgb(243,239,229), lightyellow)"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

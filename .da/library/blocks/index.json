@@ -53,6 +53,10 @@
       "path": "./popular-adventures/definition.json"
     },
     {
+      "id": "product-teaser-v2",
+      "path": "./product-teaser-v2/definition.json"
+    },
+    {
       "id": "recommended-products",
       "path": "./recommended-products/definition.json"
     },

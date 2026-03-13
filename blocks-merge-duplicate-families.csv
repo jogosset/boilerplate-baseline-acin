@@ -1,0 +1,50 @@
+Family,Count,Targets
+accordion,2,accordion-1 accordion-2
+cards,2,cards-1 cards-2
+cards-list,2,cards-list cards-list-1
+carousel,3,carousel-1 carousel-2 carousel-3
+circle-carousel,1,circle-carousel-1
+columns,3,columns-1 columns-2 columns-3
+commerce-account-header,2,commerce-account-header-1 commerce-account-header-2
+commerce-account-sidebar,2,commerce-account-sidebar-1 commerce-account-sidebar-2
+commerce-addresses,2,commerce-addresses-1 commerce-addresses-2
+commerce-cart,3,commerce-cart-1 commerce-cart-2 commerce-cart-3
+commerce-checkout,3,commerce-checkout-1 commerce-checkout-2 commerce-checkout-3
+commerce-checkout-success,1,commerce-checkout-success-1
+commerce-confirm-account,2,commerce-confirm-account-1 commerce-confirm-account-2
+commerce-create-account,2,commerce-create-account-1 commerce-create-account-2
+commerce-create-password,2,commerce-create-password-1 commerce-create-password-2
+commerce-create-return,2,commerce-create-return-1 commerce-create-return-2
+commerce-customer-details,2,commerce-customer-details-1 commerce-customer-details-2
+commerce-customer-information,2,commerce-customer-information-1 commerce-customer-information-2
+commerce-forgot-password,2,commerce-forgot-password-1 commerce-forgot-password-2
+commerce-gift-options,2,commerce-gift-options-1 commerce-gift-options-2
+commerce-login,3,commerce-login-1 commerce-login-2 commerce-login-3
+commerce-mini-cart,2,commerce-mini-cart-1 commerce-mini-cart-2
+commerce-order-cost-summary,2,commerce-order-cost-summary-1 commerce-order-cost-summary-2
+commerce-order-header,2,commerce-order-header-1 commerce-order-header-2
+commerce-order-product-list,2,commerce-order-product-list-1 commerce-order-product-list-2
+commerce-order-returns,2,commerce-order-returns-1 commerce-order-returns-2
+commerce-order-status,2,commerce-order-status-1 commerce-order-status-2
+commerce-orders-list,2,commerce-orders-list-1 commerce-orders-list-2
+commerce-return-header,2,commerce-return-header-1 commerce-return-header-2
+commerce-returns-list,2,commerce-returns-list-1 commerce-returns-list-2
+commerce-search-order,2,commerce-search-order-1 commerce-search-order-2
+commerce-shipping-status,2,commerce-shipping-status-1 commerce-shipping-status-2
+commerce-wishlist,2,commerce-wishlist-1 commerce-wishlist-2
+enrichment,3,enrichment-1 enrichment-2 enrichment-3
+footer,3,footer-1 footer-2 footer-3
+fragment,3,fragment-1 fragment-2 fragment-3
+header,3,header-1 header-2 header-3
+hero,3,hero-1 hero-2 hero-3
+hero-cta,1,hero-cta-1
+modal,2,modal-1 modal-2
+newsletter,2,newsletter-1 newsletter-2
+product-details,3,product-details-1 product-details-2 product-details-3
+product-list-page,3,product-list-page-1 product-list-page-2 product-list-page-3
+product-recommendations,2,product-recommendations-1 product-recommendations-2
+promotional-hero,2,promotional-hero-1 promotional-hero-2
+search-bar,1,search-bar-1
+store-locator,1,store-locator-1
+targeted-block,2,targeted-block-1 targeted-block-2
+top-banner,1,top-banner-1
